@@ -20,7 +20,7 @@ p {
 div.top-header {
   display: flex;
   flex-wrap: wrap;
-  padding: 5%;
+  padding: 1%;
 }
 
 header div.top-header p {
@@ -31,11 +31,17 @@ header div.top-header p {
 
 header {
   background-color: #eac926;
+  display: flex;
+  flex-wrap: wrap;
+    
+  justify-content: space-between;
+  align-items: center;    
 }
 
 header div.logo,
 header .form {
   width: 50%;
+  max-width: 200px;
 }
 
 header div.logo {
@@ -50,6 +56,12 @@ header .form {
 header nav {
   font-size: 12px;
   margin-left: 20px;
+
+  width: 400px;
+  max-width: 70%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
 }
 
 header ul li {
@@ -78,6 +90,8 @@ header .form .submit {
 
 div.burger-menu {
   text-align: center;
+  padding: 10px;
+
 }
 
 div.burger-menu i {
